@@ -1,0 +1,76 @@
+/* NOTE: currently working on, color palette here: http://www.colourlovers.com/palette/4500807/ocean_rose */
+/*TODO: definitely some extraneous code here so will need to check similarities with main.css and delete repetitious code*/
+
+
+ /***** General styling *****/
+body {
+  background-color: #F9FBFC;
+  color: #001317;
+  /*font-family: 'Georgia', serif;
+  font-size: 1em;*/
+}
+
+ a {
+  color: #006F88;
+}
+
+ a:hover {
+  color: #C62400;
+  text-decoration: none;
+}
+
+
+ /***** Nav (in /fragments/nav.html) *****/
+nav#mainmenu {
+  background-color: rgba(0, 19, 23, 0.95);
+}
+
+ nav#mainmenu a {
+  color: #F9FBFC;
+}
+
+ .navHeader {
+  color: #006F88;
+}
+
+ /*TODO: eventually you'll have to deal with this, whether making a new logo with better linework, or adding a background*/
+#logo {
+  /*background: #F9FBFC;
+  background: -webkit-radial-gradient(circle, rgba(249, 251, 252, 1), rgba(0, 19, 23, 0.7));
+  background: -o-radial-gradient(circle, rgba(249, 251, 252, 1), rgba(249, 251, 252, 0.7));
+  background: -moz-radial-gradient(circle, rgba(249, 251, 252, 1), rgba(249, 251, 252, 0.7));
+  background: radial-gradient(circle, rgba(249, 251, 252, 1), rgba(249, 251, 252, 0.7));
+  border-radius: 4em;
+  box-shadow: 0 0 50px #006F88;*/
+}
+
+
+ /***** Header (found in ./index.html) *****/
+.headerGradient {
+  background: rgba(0, 111, 136, 0.8);
+  background: -webkit-linear-gradient(left, rgba(0, 19, 23, 0.95), rgba(0, 111, 136, 0.8));
+  background: -o-linear-gradient(right, rgba(0, 19, 23, 0.95), rgba(0, 111, 136, 0.8));
+  background: -moz-linear-gradient(right, rgba(0, 19, 23, 0.95), rgba(0, 111, 136, 0.8));
+  background: linear-gradient(to right, rgba(0, 19, 23, 0.95) , rgba(0, 111, 136, 0.8));
+}
+
+ .headerTitle {
+  color: #F9FBFC;
+}
+
+ .headerInfoTop {
+  color: #001317;
+}
+
+ .headerInfoBottom {
+  color: #001317;
+}
+
+ /***** Main Content: general styling *****/
+.pageSubtitle {
+  color: #006F88;
+}
+
+ .dateTitle {
+  color: #006F88;
+}
