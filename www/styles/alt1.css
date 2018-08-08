@@ -1,0 +1,45 @@
+/* NOTE: unfinished/questioning whether I should continue, color palette here: http://www.colourlovers.com/palette/4500807/ocean_rose */
+body {
+  background-color: #F9FBFC;
+}
+
+nav#mainmenu {
+  background-color: #001317;
+}
+
+.navHeader {
+  color: #006F88;
+}
+
+#logo {
+  background: #F9FBFC;
+  background: -webkit-radial-gradient(circle, rgba(249, 251, 252, 1), rgba(0, 19, 23, 0.7));
+  background: -o-radial-gradient(circle, rgba(249, 251, 252, 1), rgba(249, 251, 252, 0.7));
+  background: -moz-radial-gradient(circle, rgba(249, 251, 252, 1), rgba(249, 251, 252, 0.7));
+  background: radial-gradient(circle, rgba(249, 251, 252, 1), rgba(249, 251, 252, 0.7));
+  border-radius: 4em;
+  box-shadow: 0 0 50px #006F88;
+}
+
+.headerGradient {
+  background: rgba(0, 111, 136, 0.7);
+  background: -webkit-linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));
+  background: -o-linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));
+  background: linear-gradient(rgba(0, 111, 136, 0.7), rgba(249, 251, 252, 1));
+}
+
+.headerTitle {
+  color: #006F88;
+}
+
+.headerInfoTop {
+  color: #006F88;
+}
+
+.headerInfoBottom {
+  color: #006F88;
+}
+
+nav#mainmenu a {
+  color: #F9FBFC;
+}
